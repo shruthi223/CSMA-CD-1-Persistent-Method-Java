@@ -31,6 +31,8 @@ the transmission medium continuously until it becomes idle, then transmits the m
 unconditionally (i.e. with probability=1). In case of a collision, the sender waits for a random period of time
 and attempts the same procedure again. 1-persistent CSMA is used in CSMA/CD systems including Ethernet.
 
+![csmacd1](https://user-images.githubusercontent.com/65851937/88202912-29034780-cc67-11ea-973b-c18d0f478030.png)
+
 ### Our Approach 
 As a team, we decided to use Java as our programming language of choice. Few of the reasons we opted for
 Java over C/C++ include the Java concept of “Threads” that was not available in C/C++ programming
@@ -40,3 +42,10 @@ thread functions such as join(). xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 We also put to use other core Java concepts such as Exception Handling, Inheritance and Synchronization.
 Our problem statement also specified that the minimum number of stations to be implemented in this model
 are six and hence, we developed a model that would do so
+
+### Algorithm
+The algorithm used to develop the required 1-persistent CSMA/CD model is as follows <br />
+*Step 1: When a frame is ready, the transmitting station checks whether the channel is idle or busy.*<br />
+*Step 2: If the channel is busy, the station waits and continually checks until the channel becomes idle.*<br />
+*Step 3: If the channel is idle then it transmits the frame immediately, with a probability 1.*<br />
+*Step 4: A collision may occur if two or more channels transmit simultaneously. If collision occurs, the station waits for a random period of time and restarts the algorithm all over again.* <br />
