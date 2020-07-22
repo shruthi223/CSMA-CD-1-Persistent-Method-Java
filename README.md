@@ -38,7 +38,7 @@ As a team, we decided to use Java as our programming language of choice. Few of 
 Java over C/C++ include the Java concept of “Threads” that was not available in C/C++ programming
 languages, as well as the OOP feature of classes and objects that are absent in the C programming language.
 Using the multithreading concept, we were able to implement a CSMA/CD 1-persistent model using in-built
-thread functions such as join(). xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+thread functions such as join(). <br />
 We also put to use other core Java concepts such as Exception Handling, Inheritance and Synchronization.
 Our problem statement also specified that the minimum number of stations to be implemented in this model
 are six and hence, we developed a model that would do so
