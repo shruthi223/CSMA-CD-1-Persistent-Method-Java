@@ -49,3 +49,5 @@ The algorithm used to develop the required 1-persistent CSMA/CD model is as foll
 *Step 2: If the channel is busy, the station waits and continually checks until the channel becomes idle.*<br />
 *Step 3: If the channel is idle then it transmits the frame immediately, with a probability 1.*<br />
 *Step 4: A collision may occur if two or more channels transmit simultaneously. If collision occurs, the station waits for a random period of time and restarts the algorithm all over again.* <br />
+<br /> <br />
+#### Done by: Shruthi Srinarasi, Siddarth Bhave & Prarthana Anand
